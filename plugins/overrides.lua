@@ -26,6 +26,10 @@ M.mason = {
 
 -- git support in nvimtree
 M.nvimtree = {
+  filters = {
+    exclude = { vim.fn.stdpath "config" .. "\\lua\\custom" },
+  },
+
   git = {
     enable = true,
   },
