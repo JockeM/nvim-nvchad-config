@@ -21,6 +21,11 @@ local sources = {
 
   -- cpp
   b.formatting.clang_format,
+
+  -- c#
+  b.formatting.csharpier,
+
+  -- rust
   b.formatting.rustfmt,
 }
 
