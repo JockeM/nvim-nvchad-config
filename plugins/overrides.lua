@@ -7,8 +7,11 @@ M.treesitter = {
     "html",
     "css",
     "c",
+    "cpp",
     "c_sharp",
-    "rust"
+    "rust",
+    "markdown",
+    "markdown_inline"
   },
 }
 
@@ -18,9 +21,10 @@ M.mason = {
     "lua-language-server",
     "stylua",
 
-    "csharp-language-server",
+    "omnisharp",
     "csharpier",
     "rust-analyzer",
+    "clangd"
   },
 }
 
